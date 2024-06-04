@@ -1,19 +1,22 @@
+
 project:
   type: website
   output-dir: docs
+
 website:
   title: "Thiago Grezzi"
   navbar:
     left:
       - href: index.qmd
-        text: Inicío
-      - about.qmd
-
+        text: Início
+      - href: about.qmd
+        text: Sobre
+      - href: dashboard.qmd
+        text: Dashboard
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: LUX
     toc: true
-
+css: styles.css
 
 
