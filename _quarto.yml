@@ -9,13 +9,14 @@ website:
     left:
       - href: index.qmd
         text: Início
+        icon: ball
       - href: about.qmd
         text: Sobre
       - href: dashboard.qmd
         text: Dashboard
 format:
   html:
-    theme: LUX
+    theme: Zephyr
     toc: true
 css: styles.css
 

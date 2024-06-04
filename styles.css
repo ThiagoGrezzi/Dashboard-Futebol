@@ -1,55 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+
+<<<<<<< HEAD
+/* css styles */
+
+
+/* Reset de estilos */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+     background-color: #363636;
+    color: #FFFFFF;
+    line-height: 1.6;
+    body {
+    color: white; /* Define a cor do texto para branco */
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    color: white; /* Define a cor do texto para branco */
+}
+
+}
+
+/* Container principal */
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
+
+/* Estilo do cabeçalho */
 .header {
-    background-color: #1a73e8;
+    background-color: #FFFFFF;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
+
 .header h1 {
-    margin: 0;
+    font-size: 24px;
 }
+
+/* Estilo da seção */
 .section {
     background-color: #fff;
-    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
+
 .section h2 {
-    margin-top: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-.section table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+
+
+
+/* Estilo de links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
 }
-.section table, .section th, .section td {
-    border: 1px solid #ddd;
+
+a:hover {
+    text-decoration: underline;
 }
-.section th, .section td {
-    padding: 10px;
-    text-align: left;
-}
-.section th {
-    background-color: #f4f4f4;
-}
-.footer {
-    background-color: #1a73e8;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+
+<h4 style="color: white;">Sobre</h4>
+
+
+
